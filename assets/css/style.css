@@ -10,11 +10,11 @@
     box-sizing: border-box;
 }
 
-section {
+section{
     background-color: #1E71FF;
 }
 
-.container {
+.container{
     width: 1160px;
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +22,7 @@ section {
     padding-right: 12px;
 }
 
-.row {
+.row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -30,20 +30,22 @@ section {
     margin-right: -12px;
 }
 
-.box2 {
-    background: rgba(30, 113, 255, 0.1);
-    width: 1260px;
+.box2{
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
 }
+.box{
+    background: rgba(30, 113, 255, 0.1);
+}
 
-.col6 {
+.col6{
     width: 50%;
 }
 
-.hero_heading {
+.hero_heading{
     color: #FFFFFF;
     font-family: 'Poppins';
     font-style: normal;
@@ -54,7 +56,7 @@ section {
     padding-bottom: 20px;
 }
 
-.hero_para {
+.hero_para{
     color: #FFFFFF;
     font-family: 'Roboto';
     font-weight: 400;
@@ -93,7 +95,7 @@ section {
 
 }
 
-.nav_logo {
+.nav_logo{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -103,7 +105,7 @@ section {
     color: #FFFFFF;
 }
 
-.nav_logo1 {
+.nav_logo1{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 100;
@@ -114,14 +116,14 @@ section {
     margin-right: 20px;
 }
 
-.nav_main_logo {
+.nav_main_logo{
+    cursor: pointer;
     padding-top: 35px;
     padding-bottom: 225px;
 }
 
-.tags {
+.tags{
     padding-top: 42px;
-    gap: 30px;
     display: flex;
     flex-direction: row;
     font-family: 'Roboto';
@@ -130,13 +132,15 @@ section {
     font-size: 14px;
     line-height: 16px;
     text-align: right;
-    color: #FFFFFF;
-    margin-left: 230px;
-
+    padding-left: 150px;
+}
+.pointer{
+    margin-right: 32px;
+   color: #FFFFFF;
 }
 
 .nav_button{
-    margin-top: -30px;
+    margin-top: -12px;
     width: 111px;
     height: 40px;
     background: rgba(255, 255, 255, 0.2);
@@ -151,13 +155,13 @@ section {
 
 }
 
-.hero-img {
+.hero-img{
     margin-top: 100PX;
     margin-left: 50px;
     margin-bottom: 160px;
 }
 
-.page2_head {
+.page2_head{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -171,7 +175,7 @@ section {
     margin-bottom: 30px;
 }
 
-.page2_para {
+.page2_para{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -184,23 +188,24 @@ section {
     margin-bottom: 86px;
 }
 
-.col12 {
+.col12{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.chat_pic {
+.chat_pic{
     margin-bottom: 180px;
 }
 
-.page3_pic {
+.page3_pic{
     margin-top: 124px;
     margin-bottom: 137px;
+    margin-left: -55px;
 }
 
-.page3_head {
+.page3_head{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -213,7 +218,7 @@ section {
     margin-bottom: 30px;
 }
 
-.page3_para {
+.page3_para{
     width: 465px;
     height: 34px;
     font-family: 'Roboto';
@@ -239,7 +244,7 @@ section {
     color:  #1E71FF;
 }
 
-.button_border {
+.button_border{
     cursor: pointer;
     border: 1px solid #1E71FF;
     border-radius: 60px;
@@ -253,32 +258,30 @@ section {
     background-color:#1E71FF;
     color: #FFFFFF;
 }
-.tags{
-    cursor: pointer;
-}
 
-.margn {
+
+.margn{
     margin-left: 120px;
 }
 
-.star {
+.star{
     margin-left: 10px;
     display: flex;
 }
 
-.line {
+.line{
     margin-top: 70px;
     margin-bottom: 40px;
 }
 
-.col2 {
+.col2{
     margin-top: 90px;
     width: 16.66%;
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.star_para {
+.star_para{
     margin-left: 25px;
     width: 250px;
     height: 58px;
@@ -290,7 +293,7 @@ section {
     color: rgba(43, 53, 62, 0.7);
 }
 
-.footer_font {
+.footer_font{
     width: 110px;
     height: 30px;
     font-family: 'Poppins';
@@ -303,7 +306,7 @@ section {
 
 }
 
-.footer_font1 {
+.footer_font1{
     width: 110px;
     height: 30px;
     font-family: 'Poppins';
@@ -316,7 +319,7 @@ section {
 
 }
 
-.footer_para {
+.footer_para{
     margin-top: 18px;
     width: 168px;
     height: 48px;
@@ -330,12 +333,12 @@ section {
 
 }
 
-.col10 {
+.col10{
     width: 83.33%;
 
 }
 
-.footer_tags {
+.footer_tags{
     margin-top: 90px;
     display: flex;
     flex-direction: row;
@@ -343,12 +346,12 @@ section {
     gap: 20px;
 }
 
-.tags_head {
+.tags_head{
     width: 169px;
     height: 29px;
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 161.7%;
     color: #2B353E;
@@ -356,7 +359,7 @@ section {
 
 }
 
-.footer_links {
+.footer_links{
     width: 168px;
     height: 21px;
     font-family: 'Roboto';
@@ -368,4 +371,7 @@ section {
 }
 .margn_bttm{
 margin-bottom: 12px;
+}
+.mrgn_bttm{
+    padding-bottom: 30px;
 }
